@@ -1,0 +1,568 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro';
+}
+
+body{
+    background-color: #FFF5EE;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+}
+
+nav{
+    background-color: white;
+    display: flex; /*This makes items stay in a horizontal direction e.g (- - - -)*/
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+}
+
+.logo, nav div{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+nav a{
+    color: black;
+}
+
+
+.get-started-btn{
+    background-color: purple;
+    color: white;
+    padding: 5px 14px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+
+}
+
+nav h4{
+    font-size: 27px;
+}
+
+main {
+    background-color: seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+}
+
+main h1{
+    font-size: 60px;
+}
+
+main p{
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+main img, main .main-div{
+    width: 40%;
+}
+
+.content{
+    background-color: purple;
+    color: white;
+    padding: 20px;    
+    margin-right: 15px;
+    border: 1px solid purple;
+}
+.subject{
+    background-color: #F0F0F0;
+    padding: 20px;
+    border: 1px solid purple;
+    
+}
+
+.main-dtn{
+    display: flex;
+}
+
+.fa-bars, .fa-xmark{
+    display: none;
+}
+
+
+@media screen and (max-width:992px) {
+    nav ul{
+        gap: 25px;
+    }
+
+    main{
+        gap: 30px;
+    }
+
+    main .main-div{
+        width: 50%;
+    }
+
+    main h1{
+        font-size: 45px;
+    }
+
+    main p{
+        font-size: 18px;
+    }
+
+    .main-btn{
+        display: flex;
+    }
+
+    .subject, .content{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    nav div{
+        display: none;
+    }
+
+    main {
+        padding: 3rem 30px;
+    }
+
+    main h1{
+        font-size: 30px;
+    }
+
+    main button {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    main{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    main .main-div, main img{
+        width: 90%;
+    }
+
+    .main-btn{
+        justify-content: center;
+    }
+
+    main h1{
+        font-size: 45px;
+    }
+
+    .fa-bars, .fa-xmark{
+        display: block;
+    }    
+
+    nav ul{
+        position: fixed;
+        background-color: white;
+        flex-direction: column;
+        right: -250px;
+        top: 0;
+        height: 100vh;
+        padding: 3rem;
+        transition: 0.5s;
+    }
+
+3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
